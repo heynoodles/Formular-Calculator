@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<operator>
+	<binaryOperator name="+" priority="4">
+		<class>com.fc.expression.binary.AddExpression</class>
+	</binaryOperator>
+	<binaryOperator name="-" priority="4">
+		<class>com.fc.expression.binary.SubExpression</class>
+	</binaryOperator>
+	<binaryOperator name="*" priority="3">
+		<class>com.fc.expression.binary.MulExpression</class>
+	</binaryOperator>
+	<binaryOperator name="/" priority="3">
+		<class>com.fc.expression.binary.DivExpression</class>
+	</binaryOperator>
+	<unaryOperator name="!" priority="2">
+		<class>com.fc.expression.unary.FacExpression</class>
+	</unaryOperator>
+</operator>
